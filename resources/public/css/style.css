@@ -1,0 +1,51 @@
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+table {
+    background: #111;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black
+}
+
+.stage {
+    bottom: 1;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 2;
+}
+
+.cell-white {;
+    background-color: white;
+}
+
+.cell-black {
+    background-color: SlateGray;
+}
+
+.NiceButton {
+    border-radius: 6px;
+    padding: 20px 34px;
+    font-size: 20px;
+    background-color: SlateGray;
+    color: white;
+    border: 2px solid SlateGray;
+
+}
+
+.NiceButton:hover {
+    background-color: white;
+    color: SlateGray;
+    border: 2px solid SlateGray;
+}
+
