@@ -9,7 +9,6 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.229"]
                  [reagent "0.5.0"]
-                 [re-frame "0.6.0"]
                  [org.clojure/core.async  "0.3.442"
                   :exclusions [org.clojure/tools.reader]]]
 

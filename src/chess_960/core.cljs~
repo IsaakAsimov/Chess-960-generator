@@ -42,11 +42,10 @@
 
 (defn button-render []
   [:div
-    [:button.NiceButton {:on-click #(swap! board board-create)} "Generate"]])
+    [:button.NiceButton {:on-click #(swap! board board-create)} "Reload"]])
 
 (defn show []
    [:div
-    [:h2 "Chess-960 start-positions generator APP."]
     [render-board]
     [button-render]])
 
