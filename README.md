@@ -1,6 +1,6 @@
 # chess-960
 
-A generator of start positions for the Fischer random Chess, also known as
+A generator of starting positions for the [Fischer random Chess](https://en.wikipedia.org/wiki/Chess960), also known as
 Chess-960
 
 ![](https://github.com/Average-user/Chess-960-generator/blob/master/resources/public/img/demo.png?raw=true)
